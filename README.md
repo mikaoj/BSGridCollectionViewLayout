@@ -14,6 +14,8 @@ There are 3 properties for you to tweak:
 * itemSpacing - Spacing between items (vertical and horizontal)
 * itemHeightRatio - The item height ratio relative to it's width
 
+To run the example project, clone the repo, and run `pod install` from the Example directory first.
+
 ## Requirements
 iOS 8
 
