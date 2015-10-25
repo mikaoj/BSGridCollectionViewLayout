@@ -5,7 +5,7 @@
 [![License](https://img.shields.io/cocoapods/l/BSGridCollectionViewLayout.svg?style=flat)](http://cocoapods.org/pods/BSGridCollectionViewLayout)
 [![Platform](https://img.shields.io/cocoapods/p/BSGridCollectionViewLayout.svg?style=flat)](http://cocoapods.org/pods/BSGridCollectionViewLayout)
 
-BSGridCollectionViewLayout is a simple UICollectionViewLayout. It simply displays the items in a grid. It doesn't have a concept of sections. So eaven if the items are in different data source / sections. They will be displayed as being in a single section. I highly doubt that anyone besides me will use this, but I'm using it in [BSImagePicker](https://github.com/mikaoj/BSImagePicker).
+BSGridCollectionViewLayout is a simple UICollectionViewLayout. It simply displays the items in a grid. It doesn't have a concept of sections. So even if the items are in different data source / sections. They will be displayed as being in one continuous grid without any section breaks. I highly doubt that anyone besides me will use this, but I'm using it in [BSImagePicker](https://github.com/mikaoj/BSImagePicker).
 
 ## Usage
 
