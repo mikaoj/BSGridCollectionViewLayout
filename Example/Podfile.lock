@@ -9,6 +9,6 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  BSGridCollectionViewLayout: 9f24038e102ccb634dc514d4dbe59a7c18efd919
+  BSGridCollectionViewLayout: ec1fb54e6f268b6dbfc8a005c4269c181371137e
 
 COCOAPODS: 0.39.0

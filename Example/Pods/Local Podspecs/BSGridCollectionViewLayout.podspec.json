@@ -3,13 +3,13 @@
   "version": "1.0.0",
   "summary": "Simple grid collection view layout.",
   "description": "A simple grid collection view layout. Displays multiple sections as one continuous grid without any section breaks.",
-  "homepage": "https://github.com/<GITHUB_USERNAME>/BSGridCollectionViewLayout",
+  "homepage": "https://github.com/mikaoj/BSGridCollectionViewLayout",
   "license": "MIT",
   "authors": {
     "Joakim Gyllstrom": "joakim@backslashed.se"
   },
   "source": {
-    "git": "https://github.com/<GITHUB_USERNAME>/BSGridCollectionViewLayout.git",
+    "git": "https://github.com/mikaoj/BSGridCollectionViewLayout.git",
     "tag": "1.0.0"
   },
   "platforms": {
