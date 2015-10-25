@@ -15,6 +15,7 @@ There are 3 properties for you to tweak:
 * itemHeightRatio - The item height ratio relative to it's width
 
 ## Requirements
+iOS 8
 
 ## Installation
 
