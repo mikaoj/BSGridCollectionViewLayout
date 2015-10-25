@@ -1,0 +1,12 @@
+source 'https://github.com/CocoaPods/Specs.git'
+use_frameworks!
+
+target 'BSGridCollectionViewLayout_Example', :exclusive => true do
+  pod "BSGridCollectionViewLayout", :path => "../"
+end
+
+target 'BSGridCollectionViewLayout_Tests', :exclusive => true do
+  pod "BSGridCollectionViewLayout", :path => "../"
+
+  
+end
