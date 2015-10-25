@@ -5,9 +5,14 @@
 [![License](https://img.shields.io/cocoapods/l/BSGridCollectionViewLayout.svg?style=flat)](http://cocoapods.org/pods/BSGridCollectionViewLayout)
 [![Platform](https://img.shields.io/cocoapods/p/BSGridCollectionViewLayout.svg?style=flat)](http://cocoapods.org/pods/BSGridCollectionViewLayout)
 
+BSGridCollectionViewLayout is a simple UICollectionViewLayout. It simply displays the items in a grid. It doesn't have a concept of sections. So eaven if the items are in different data source / sections. They will be displayed as being in a single section. I highly doubt that anyone besides me will use this, but I'm using it in [BSImagePicker](https://github.com/mikaoj/BSImagePicker).
+
 ## Usage
 
-To run the example project, clone the repo, and run `pod install` from the Example directory first.
+There are 3 properties for you to tweak:
+* itemsPerRow - Number of items per row
+* itemSpacing - Spacing between items (vertical and horizontal)
+* itemHeightRatio - The item height ratio relative to it's width
 
 ## Requirements
 
@@ -17,7 +22,7 @@ BSGridCollectionViewLayout is available through [CocoaPods](http://cocoapods.org
 it, simply add the following line to your Podfile:
 
 ```ruby
-pod "BSGridCollectionViewLayout"
+pod "BSGridCollectionViewLayout ~> 0.1"
 ```
 
 ## Author
