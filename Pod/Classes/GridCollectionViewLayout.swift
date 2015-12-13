@@ -148,7 +148,7 @@ extension GridCollectionViewLayout {
         let endIndex = (endRow * itemsPerRow + itemsPerRow > items) ? items-1 : endRow * itemsPerRow
 
         var indexPaths = [NSIndexPath]()
-        for var index = startIndex; index < endIndex; ++index {
+        for var index = startIndex; index <= endIndex; ++index {
             indexPaths.append(indexPathFromFlatIndex(index))
         }
 
