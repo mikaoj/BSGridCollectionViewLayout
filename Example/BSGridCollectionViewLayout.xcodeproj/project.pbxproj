@@ -7,13 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		553DE6751CABBFCD006C4C9F /* LastRowTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 553DE6741CABBFCD006C4C9F /* LastRowTests.swift */; };
+		553DE6771CABC7FA006C4C9F /* FirstIndexTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 553DE6761CABC7FA006C4C9F /* FirstIndexTests.swift */; };
+		553DE6791CABCC14006C4C9F /* LastIndexTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 553DE6781CABCC14006C4C9F /* LastIndexTests.swift */; };
 		59708DABA4977941E5622E9F /* Pods_BSGridCollectionViewLayout_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A8CB884C5A9A71517E747B0 /* Pods_BSGridCollectionViewLayout_Tests.framework */; };
 		607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD51AFB9204008FA782 /* AppDelegate.swift */; };
 		607FACD81AFB9204008FA782 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD71AFB9204008FA782 /* ViewController.swift */; };
 		607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 607FACD91AFB9204008FA782 /* Main.storyboard */; };
 		607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDC1AFB9204008FA782 /* Images.xcassets */; };
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
-		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
+		607FACEC1AFB9204008FA782 /* FirstRowTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* FirstRowTests.swift */; };
 		EB69147FBBE49F808C3FB6F2 /* Pods_BSGridCollectionViewLayout_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9AF8FCAAFF35FF4BB989081B /* Pods_BSGridCollectionViewLayout_Example.framework */; };
 /* End PBXBuildFile section */
 
@@ -31,6 +34,9 @@
 		0A8CB884C5A9A71517E747B0 /* Pods_BSGridCollectionViewLayout_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BSGridCollectionViewLayout_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1271D170BACE76AAF61B953E /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		4DD8060D12E59B1B67378F47 /* Pods-BSGridCollectionViewLayout_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BSGridCollectionViewLayout_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-BSGridCollectionViewLayout_Tests/Pods-BSGridCollectionViewLayout_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		553DE6741CABBFCD006C4C9F /* LastRowTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LastRowTests.swift; sourceTree = "<group>"; };
+		553DE6761CABC7FA006C4C9F /* FirstIndexTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FirstIndexTests.swift; sourceTree = "<group>"; };
+		553DE6781CABCC14006C4C9F /* LastIndexTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LastIndexTests.swift; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* BSGridCollectionViewLayout_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BSGridCollectionViewLayout_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -40,7 +46,7 @@
 		607FACDF1AFB9204008FA782 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		607FACE51AFB9204008FA782 /* BSGridCollectionViewLayout_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BSGridCollectionViewLayout_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
+		607FACEB1AFB9204008FA782 /* FirstRowTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstRowTests.swift; sourceTree = "<group>"; };
 		62621CB8A78F5398E3B938B5 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		9AF8FCAAFF35FF4BB989081B /* Pods_BSGridCollectionViewLayout_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BSGridCollectionViewLayout_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B87BF5ECE1FED6612E07787A /* BSGridCollectionViewLayout.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = BSGridCollectionViewLayout.podspec; path = ../BSGridCollectionViewLayout.podspec; sourceTree = "<group>"; };
@@ -124,7 +130,10 @@
 		607FACE81AFB9204008FA782 /* Tests */ = {
 			isa = PBXGroup;
 			children = (
-				607FACEB1AFB9204008FA782 /* Tests.swift */,
+				607FACEB1AFB9204008FA782 /* FirstRowTests.swift */,
+				553DE6741CABBFCD006C4C9F /* LastRowTests.swift */,
+				553DE6761CABC7FA006C4C9F /* FirstIndexTests.swift */,
+				553DE6781CABCC14006C4C9F /* LastIndexTests.swift */,
 				607FACE91AFB9204008FA782 /* Supporting Files */,
 			);
 			path = Tests;
@@ -218,7 +227,6 @@
 					};
 					607FACE41AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
-						TestTargetID = 607FACCF1AFB9204008FA782;
 					};
 				};
 			};
@@ -368,7 +376,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				607FACEC1AFB9204008FA782 /* Tests.swift in Sources */,
+				553DE6751CABBFCD006C4C9F /* LastRowTests.swift in Sources */,
+				607FACEC1AFB9204008FA782 /* FirstRowTests.swift in Sources */,
+				553DE6791CABCC14006C4C9F /* LastIndexTests.swift in Sources */,
+				553DE6771CABC7FA006C4C9F /* FirstIndexTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -516,7 +527,6 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = F04D8B05088B4DF749D43009 /* Pods-BSGridCollectionViewLayout_Tests.debug.xcconfig */;
 			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
@@ -525,7 +535,6 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BSGridCollectionViewLayout_Example.app/BSGridCollectionViewLayout_Example";
 			};
 			name = Debug;
 		};
@@ -533,12 +542,10 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 4DD8060D12E59B1B67378F47 /* Pods-BSGridCollectionViewLayout_Tests.release.xcconfig */;
 			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = Tests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BSGridCollectionViewLayout_Example.app/BSGridCollectionViewLayout_Example";
 			};
 			name = Release;
 		};
