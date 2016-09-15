@@ -27,7 +27,7 @@ import XCTest
 class FirstRowTests: XCTestCase {
     
     func testFirstRowInZeroRect() {
-        let firstRow = GridCollectionViewLayout.firstRowInRect(CGRectZero, withRowHeight: 100.0)
+        let firstRow = GridCollectionViewLayout.firstRowInRect(CGRect.zero, withRowHeight: 100.0)
         XCTAssertEqual(firstRow, 0)
     }
     

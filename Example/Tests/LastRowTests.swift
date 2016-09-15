@@ -26,7 +26,7 @@ import XCTest
 class LastRowTests: XCTestCase {
     
     func testLastRowInZeroRect() {
-        let lastRow = GridCollectionViewLayout.lastRowInRect(CGRectZero, withRowHeight: 100, max: 3)
+        let lastRow = GridCollectionViewLayout.lastRowInRect(CGRect.zero, withRowHeight: 100, max: 3)
         XCTAssertEqual(lastRow, 0)
     }
     
