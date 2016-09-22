@@ -27,7 +27,7 @@ class ViewController: UICollectionViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        collectionView?.backgroundColor = UIColor.white
+        collectionView?.backgroundColor = UIColor.whiteColor()
         
         let layout = GridCollectionViewLayout()
         layout.itemsPerRow = 3
@@ -36,15 +36,15 @@ class ViewController: UICollectionViewController {
         
         collectionView?.collectionViewLayout = layout
         
-        collectionView?.register(UICollectionViewCell.self, forCellWithReuseIdentifier: "cell")
+        collectionView?.registerClass(UICollectionViewCell.self, forCellWithReuseIdentifier: "cell")
     }
     
     // MARK: Data source
-    override func numberOfSections(in collectionView: UICollectionView) -> Int {
+    override func numberOfSectionsInCollectionView(collectionView: UICollectionView) -> Int {
         return 2
     }
     
-    override func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
+    override func collectionView(collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
         if section == 0 {
             return 11
         } else {
@@ -52,12 +52,12 @@ class ViewController: UICollectionViewController {
         }
     }
     
-    override func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
-        let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "cell", for: indexPath)
+    override func collectionView(collectionView: UICollectionView, cellForItemAtIndexPath indexPath: NSIndexPath) -> UICollectionViewCell {
+        let cell = collectionView.dequeueReusableCellWithReuseIdentifier("cell", forIndexPath: indexPath)
         if (indexPath as NSIndexPath).section == 0 {
-            cell.backgroundColor = UIColor.blue
+            cell.backgroundColor = UIColor.blueColor()
         } else {
-            cell.backgroundColor = UIColor.red
+            cell.backgroundColor = UIColor.redColor()
         }
         
         return cell
