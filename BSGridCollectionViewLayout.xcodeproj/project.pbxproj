@@ -21,6 +21,7 @@
 		558BE67C21D4EC3B00F06E8B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 558BE67B21D4EC3B00F06E8B /* Assets.xcassets */; };
 		5595158A21D4ED8A007E31CE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5595158921D4ED8A007E31CE /* LaunchScreen.storyboard */; };
 		55CB6AF621D4ECD40014DB72 /* BSGridCollectionViewLayout.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 552D02DB21D4E9E10017BF81 /* BSGridCollectionViewLayout.framework */; };
+		55D03E652253CDFD00567C18 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 55D03E642253CDFD00567C18 /* Default-568h@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,11 +37,10 @@
 /* Begin PBXFileReference section */
 		552D02DB21D4E9E10017BF81 /* BSGridCollectionViewLayout.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = BSGridCollectionViewLayout.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		552D02DE21D4E9E10017BF81 /* BSGridCollectionViewLayout.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BSGridCollectionViewLayout.h; sourceTree = "<group>"; };
-		552D02DF21D4E9E10017BF81 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		552D02DF21D4E9E10017BF81 /* InfoSource.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = InfoSource.plist; sourceTree = "<group>"; };
 		558BE65521D4EB4E00F06E8B /* GridCollectionViewLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GridCollectionViewLayout.swift; sourceTree = "<group>"; };
 		558BE65B21D4EBB800F06E8B /* Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		558BE65D21D4EBB800F06E8B /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
-		558BE65F21D4EBB800F06E8B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		558BE66621D4EBED00F06E8B /* LastIndexTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LastIndexTests.swift; sourceTree = "<group>"; };
 		558BE66721D4EBED00F06E8B /* LastRowTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LastRowTests.swift; sourceTree = "<group>"; };
 		558BE66821D4EBED00F06E8B /* FirstRowTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FirstRowTests.swift; sourceTree = "<group>"; };
@@ -50,11 +50,12 @@
 		558BE67621D4EC3B00F06E8B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		558BE67921D4EC3B00F06E8B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		558BE67B21D4EC3B00F06E8B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		558BE68021D4EC3B00F06E8B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		558BE68021D4EC3B00F06E8B /* InfoExample.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = InfoExample.plist; sourceTree = "<group>"; };
 		5595158921D4ED8A007E31CE /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5595158B21D4EE09007E31CE /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		5595158C21D4EE14007E31CE /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		5595158D21D4EE1E007E31CE /* BSGridCollectionViewLayout.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = BSGridCollectionViewLayout.podspec; sourceTree = "<group>"; };
+		55D03E642253CDFD00567C18 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +88,7 @@
 		552D02D121D4E9E10017BF81 = {
 			isa = PBXGroup;
 			children = (
+				55D03E642253CDFD00567C18 /* Default-568h@2x.png */,
 				5595158B21D4EE09007E31CE /* README.md */,
 				5595158C21D4EE14007E31CE /* LICENSE */,
 				5595158D21D4EE1E007E31CE /* BSGridCollectionViewLayout.podspec */,
@@ -113,7 +115,7 @@
 			children = (
 				558BE65521D4EB4E00F06E8B /* GridCollectionViewLayout.swift */,
 				552D02DE21D4E9E10017BF81 /* BSGridCollectionViewLayout.h */,
-				552D02DF21D4E9E10017BF81 /* Info.plist */,
+				552D02DF21D4E9E10017BF81 /* InfoSource.plist */,
 			);
 			path = Sources;
 			sourceTree = "<group>";
@@ -126,7 +128,6 @@
 				558BE66621D4EBED00F06E8B /* LastIndexTests.swift */,
 				558BE66721D4EBED00F06E8B /* LastRowTests.swift */,
 				558BE65D21D4EBB800F06E8B /* Tests.swift */,
-				558BE65F21D4EBB800F06E8B /* Info.plist */,
 			);
 			path = Tests;
 			sourceTree = "<group>";
@@ -138,7 +139,7 @@
 				558BE67621D4EC3B00F06E8B /* ViewController.swift */,
 				558BE67821D4EC3B00F06E8B /* Main.storyboard */,
 				558BE67B21D4EC3B00F06E8B /* Assets.xcassets */,
-				558BE68021D4EC3B00F06E8B /* Info.plist */,
+				558BE68021D4EC3B00F06E8B /* InfoExample.plist */,
 				5595158921D4ED8A007E31CE /* LaunchScreen.storyboard */,
 			);
 			path = Example;
@@ -282,6 +283,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5595158A21D4ED8A007E31CE /* LaunchScreen.storyboard in Resources */,
+				55D03E652253CDFD00567C18 /* Default-568h@2x.png in Resources */,
 				558BE67C21D4EC3B00F06E8B /* Assets.xcassets in Resources */,
 				558BE67A21D4EC3B00F06E8B /* Main.storyboard in Resources */,
 			);
@@ -474,7 +476,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "$(SRCROOT)/Sources/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/Sources/InfoSource.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -501,7 +503,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "$(SRCROOT)/Sources/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/Sources/InfoSource.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -521,7 +523,6 @@
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = Y2NHS7RD78;
-				INFOPLIST_FILE = Tests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -539,7 +540,6 @@
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = Y2NHS7RD78;
-				INFOPLIST_FILE = Tests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -558,7 +558,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = Y2NHS7RD78;
-				INFOPLIST_FILE = Example/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/Example/InfoExample.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -576,7 +576,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = Y2NHS7RD78;
-				INFOPLIST_FILE = Example/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/Example/InfoExample.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
