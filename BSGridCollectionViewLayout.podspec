@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = "BSGridCollectionViewLayout"
-  s.version          = "1.2.3"
+  s.version          = "1.2.5"
   s.summary          = "Simple grid collection view layout."
   s.description      = <<-DESC
   A simple grid collection view layout. Displays multiple sections as one continuous grid without any section breaks.
@@ -14,5 +14,5 @@ Pod::Spec.new do |s|
   s.platform     = :ios, '8.0'
   s.requires_arc = true
 
-  s.source_files = 'Sources/**/*'
+  s.source_files = 'Sources/**/*.{swift,h}'
 end
